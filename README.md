@@ -1,0 +1,1 @@
+# registro_log_script
