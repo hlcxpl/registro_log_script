@@ -21,7 +21,7 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 2023-06-21 11:50:16,857 INFO Fin del scipt
 2023-06-21 11:50:42,010 INFO Inicio del scipt
-2023-06-21 11:50:42,010 ERROR Ocurrió un error
+2023-06-21 11:50:42,010 ERROR Ocurriï¿½ un error
 Traceback (most recent call last):
   File "C:\Users\luist\OneDrive\Escritorio\registro_log_script\Prueba1.py", line 18, in realizar_operacion
     resultado = dividir(10, 0)
@@ -32,20 +32,20 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 2023-06-21 11:50:42,014 INFO Fin del scipt
 2023-06-21 11:51:07,663 INFO Inicio del scipt
-2023-06-21 11:51:07,663 ERROR Ocurrió un error
+2023-06-21 11:51:07,663 ERROR Ocurriï¿½ un error
 Traceback (most recent call last):
   File "C:\Users\luist\OneDrive\Escritorio\registro_log_script\Prueba1.py", line 19, in realizar_operacion
-    logging.info("El resultado de la división es: "+resultado)
+    logging.info("El resultado de la divisiï¿½n es: "+resultado)
                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
 TypeError: can only concatenate str (not "float") to str
 2023-06-21 11:51:07,668 INFO Fin del scipt
 2023-06-21 11:52:13,691 INFO Inicio del scipt
 2023-06-21 11:52:13,741 INFO Fin del scipt
 2023-06-21 11:53:33,167 INFO Inicio del scipt
-2023-06-21 11:53:33,167 ERROR Ocurrió un error
+2023-06-21 11:53:33,167 ERROR Ocurriï¿½ un error
 Traceback (most recent call last):
   File "C:\Users\luist\OneDrive\Escritorio\registro_log_script\Prueba1.py", line 19, in realizar_operacion
-    logging.info('El resultado de la división es: '+resultado+'')
+    logging.info('El resultado de la divisiï¿½n es: '+resultado+'')
                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
 TypeError: can only concatenate str (not "float") to str
 2023-06-21 11:53:33,171 INFO Fin del scipt
@@ -53,3 +53,6 @@ TypeError: can only concatenate str (not "float") to str
 2023-06-21 11:54:43,922 INFO Fin del scipt
 2023-06-21 11:57:06,039 INFO Inicio del scipt
 2023-06-21 11:57:06,050 INFO Fin del scipt
+2023-06-21 12:59:48,112 INFO Inicio del scipt
+2023-06-21 12:59:48,112 INFO El resultado de la división es: 5.0
+2023-06-21 12:59:48,112 INFO Fin del scipt

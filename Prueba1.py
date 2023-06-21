@@ -1,5 +1,4 @@
 import logging
-import traceback
 import datetime
 
 now = datetime.datetime.now()
@@ -15,9 +14,12 @@ def dividir(a, b):
 
 def realizar_operacion():
     try:
+
         resultado = str(dividir(10, 2))
         logging.info("El resultado de la división es: " +resultado)
+    
     except Exception as e:
         logging.exception('Ocurrió un error')
+        
 realizar_operacion()
 logging.info("Fin del scipt")
